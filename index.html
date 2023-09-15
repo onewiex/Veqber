@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html lang="en" style="--vh: 9.55px">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <title>Homepage - Veqber</title>
+    <meta name="title" content="Veqber - world's oldest financial guild" />
+    <meta
+      name="description"
+      content="Veqber providing up-to-date information on finance to make informed decisions. Our investment approach is long-term and sustainable."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Veqber - world's oldest financial guild"
+    />
+    <meta
+      property="og:description"
+      content="Veqber providing up-to-date information on finance to make informed decisions. Our investment approach is long-term and sustainable."
+    />
+    <meta property="og:site_name" content="Veqber" />
+    <meta property="og:url" content="https://veqber.com/" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="assets/img/preview.png" />
+    <link rel="image_src" href="assets/img/preview.png" />
+    <meta name="twitter:image" content="assets/img/preview.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+    <style>
+      :root {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+      }
+      html {
+        box-sizing: border-box;
+        -ms-overflow-style: scrollbar;
+      }
+      *,
+      :after,
+      :before {
+        box-sizing: inherit;
+      }
+      :root {
+        --swiper-theme-color: #007aff;
+      }
+      :root {
+        --swiper-navigation-size: 44px;
+      }
+      html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-MediumItalic.eot);
+        src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+          url(./assets/fonts/Roboto/Roboto-MediumItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-MediumItalic.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-MediumItalic.ttf) format('truetype');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-Italic.eot);
+        src: local('Roboto Italic'), local('Roboto-Italic'),
+          url(./assets/fonts/Roboto/Roboto-Italic.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-Italic.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-Italic.ttf) format('truetype');
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-Bold.eot);
+        src: local('Roboto Bold'), local('Roboto-Bold'),
+          url(./assets/fonts/Roboto/Roboto-Bold.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-Bold.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-Regular.eot);
+        src: local('Roboto'), local('Roboto-Regular'),
+          url(./assets/fonts/Roboto/Roboto-Regular.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-Regular.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-Medium.eot);
+        src: local('Roboto Medium'), local('Roboto-Medium'),
+          url(./assets/fonts/Roboto/Roboto-Medium.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-Medium.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-BoldItalic.eot);
+        src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+          url(./assets/fonts/Roboto/Roboto-BoldItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-BoldItalic.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-BoldItalic.ttf) format('truetype');
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-ThinItalic.eot);
+        src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+          url(./assets/fonts/Roboto/Roboto-ThinItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-ThinItalic.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-ThinItalic.ttf) format('truetype');
+        font-weight: 100;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-Black.eot);
+        src: local('Roboto Black'), local('Roboto-Black'),
+          url(./assets/fonts/Roboto/Roboto-Black.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-Black.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-Black.ttf) format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-Light.eot);
+        src: local('Roboto Light'), local('Roboto-Light'),
+          url(./assets/fonts/Roboto/Roboto-Light.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-Light.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-Light.ttf) format('truetype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-LightItalic.eot);
+        src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+          url(./assets/fonts/Roboto/Roboto-LightItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-LightItalic.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-BlackItalic.eot);
+        src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+          url(./assets/fonts/Roboto/Roboto-BlackItalic.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-BlackItalic.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-BlackItalic.ttf) format('truetype');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: Roboto;
+        src: url(./assets/fonts/Roboto/Roboto-Thin.eot);
+        src: local('Roboto Thin'), local('Roboto-Thin'),
+          url(./assets/fonts/Roboto/Roboto-Thin.eot?#iefix)
+            format('embedded-opentype'),
+          url(./assets/fonts/Roboto/Roboto-Thin.woff) format('woff'),
+          url(./assets/fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        font-family: Roboto, sans-serif;
+      }
+      html {
+        font-size: 14px;
+      }
+      @media (max-width: 480px) {
+        html {
+          font-size: 12px;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="styles.389fd9fb180dec22.css"
+      media="all"
+      onload="this.media='all'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="styles.389fd9fb180dec22.css"
+    /></noscript>
+    <style>
+      #spinner[_ngcontent-xym-c22] {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: fixed;
+        z-index: 9999;
+      }
+      #spinner.backdrop[_ngcontent-xym-c22] {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: none;
+      }
+      .colored-parent,
+      .colored > div {
+        background-color: #333;
+      }
+    </style>
+    <style>
+      .sk-cube-grid[_ngcontent-xym-c15] {
+        position: relative;
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube[_ngcontent-xym-c15] {
+        width: 33.33%;
+        height: 33.33%;
+        float: left;
+        animation: _ngcontent-xym-c15_sk-cubeGridScaleDelay 1.3s infinite
+          ease-in-out;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube1[_ngcontent-xym-c15] {
+        animation-delay: 0.2s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube2[_ngcontent-xym-c15] {
+        animation-delay: 0.3s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube3[_ngcontent-xym-c15] {
+        animation-delay: 0.4s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube4[_ngcontent-xym-c15] {
+        animation-delay: 0.1s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube5[_ngcontent-xym-c15] {
+        animation-delay: 0.2s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube6[_ngcontent-xym-c15] {
+        animation-delay: 0.3s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube7[_ngcontent-xym-c15] {
+        animation-delay: 0s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube8[_ngcontent-xym-c15] {
+        animation-delay: 0.1s;
+      }
+      .sk-cube-grid[_ngcontent-xym-c15] .sk-cube9[_ngcontent-xym-c15] {
+        animation-delay: 0.2s;
+      }
+      @keyframes _ngcontent-xym-c15_sk-cubeGridScaleDelay {
+        0%,
+        70%,
+        to {
+          transform: scaleZ(1);
+        }
+        35% {
+          transform: scale3D(0, 0, 1);
+        }
+      }
+    </style>
+    <style type="text/css">
+      #h3l04ks11rko1694779416589.widget-hidden {
+        display: none !important;
+      }
+      #h3l04ks11rko1694779416589.widget-visible {
+        display: block !important;
+      }
+      @media print {
+        #h3l04ks11rko1694779416589.widget-visible {
+          display: none !important;
+        }
+      }
+    </style>
+    <style type="text/css">
+      @keyframes tawkMaxOpen {
+        0% {
+          opacity: 0;
+          transform: translate(0, 30px);
+        }
+        to {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+      }
+      @-moz-keyframes tawkMaxOpen {
+        0% {
+          opacity: 0;
+          transform: translate(0, 30px);
+        }
+        to {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+      }
+      @-webkit-keyframes tawkMaxOpen {
+        0% {
+          opacity: 0;
+          transform: translate(0, 30px);
+        }
+        to {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+      }
+      #zkh2ud3edi11694779416613.open {
+        animation: tawkMaxOpen 0.25s ease !important;
+      }
+      @keyframes tawkMaxClose {
+        from {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+        to {
+          opacity: 0;
+          transform: translate(0, 30px);
+        }
+      }
+      @-moz-keyframes tawkMaxClose {
+        from {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+        to {
+          opacity: 0;
+          transform: translate(0, 30px);
+        }
+      }
+      @-webkit-keyframes tawkMaxClose {
+        from {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+        to {
+          opacity: 0;
+          transform: translate(0, 30px);
+        }
+      }
+      #zkh2ud3edi11694779416613.closed {
+        animation: tawkMaxClose 0.25s ease !important;
+      }
+    </style>
+  </head>
+  <body style="padding-right: 0px; overflow-y: auto">
+    <app-root ng-version="15.1.1"
+      ><ng-http-loader _nghost-xym-c22=""></ng-http-loader
+      ><router-outlet></router-outlet
+      ><ng-component
+        ><div class="wrapper">
+          <header class="header">
+            <div class="header-top js-paddingOffset">
+              <div class="container">
+                <div class="header-submenu">
+                  <a
+                    routerlink="/offer"
+                    class="header-submenu__item"
+                    href="/offer"
+                    ><div class="header-submenu__icon">
+                      <img src="./assets/img/logo-3.svg" alt="" />
+                    </div>
+                    <h3>QBfied Plans</h3>
+                    <p>
+                      Veqber offers specially designed USD, BTC, ETH deposit
+                      plans with daily yield, you choose the deposit plan that
+                      suits you and start earning in the guild right now
+                    </p></a
+                  ><a
+                    routerlink="/affiliate_program"
+                    class="header-submenu__item"
+                    href="/affiliate_program"
+                    ><div class="header-submenu__icon">
+                      <img src="./assets/img/logo-3.svg" alt="" />
+                    </div>
+                    <h3>QB Perfection program</h3>
+                    <p>
+                      Veqber offers a specially designed Affiliate Program
+                      through the referral link that you use to register
+                      partners in your first line to receive a bonus from the
+                      partner's investment
+                    </p></a
+                  >
+                </div>
+                <div class="row d-flex align-items-center">
+                  <div class="col-5 col-xl-2 d-flex align-items-center">
+                    <div class="header-burger"><span></span></div>
+                    <a
+                      routerlink="/"
+                      aria-label="Veqber"
+                      class="header-logo"
+                      href="/"
+                      ><img src="./assets/img/logo.svg" alt=""
+                    /></a>
+                  </div>
+                  <div
+                    class="col-7 col-xl-10 d-flex align-items-center justify-content-end"
+                  >
+                    <div class="header-nav">
+                      <div class="header-menu">
+                        <a
+                          routerlink="/"
+                          routerlinkactive="active"
+                          href="/"
+                          class="active"
+                          >Home</a
+                        ><a
+                          routerlink="/about"
+                          routerlinkactive="active"
+                          href="/"
+                          >About QB Guild</a
+                        ><a href="/">QB Programs</a
+                        ><a
+                          routerlink="/media"
+                          routerlinkactive="active"
+                          href="/"
+                          >Media</a
+                        ><a
+                          routerlink="/contacts"
+                          routerlinkactive="active"
+                          href="/"
+                          >Contacts</a
+                        >
+                      </div>
+
+                      <div class="header-btns">
+                        <a class="header-login" onclick="handleLogin()"
+                          >Sign in</a
+                        >
+                        <!-- <a
+                          routerlink="/auth/signup"
+                          class="header-sign"
+                          href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                          >Sign up
+                        </a> -->
+                      </div>
+                    </div>
+                    <app-language>
+                      <a
+                        routerlink="/auth/signup"
+                        class="header-sign"
+                        href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                        >Sign up
+                      </a>
+                      <!-- <div class="header-lang">
+                        <div class="header-lang__icon">
+                          <svg>
+                            <use xlink:href="assets/img/flags.svg#en"></use>
+                          </svg>
+                        </div>
+                        <span>English</span
+                        ><svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow"></use>
+                        </svg>
+                      </div> -->
+                    </app-language>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <router-outlet></router-outlet
+          ><ng-component
+            ><div
+              class="header-content"
+              style="background-image: url('assets/img/header-bg-old.webp')"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="header-text">
+                      <h1>Veqber</h1>
+                      <p>
+                        The Financial Guild, which, with all the honors of
+                        history and traditions, has maintained its high level
+                        since the 19th century to the present day. Boundless
+                        experience carried through the centuries.
+                      </p>
+                      <p>
+                        Veqber honors the traditions of the guild, thus, the
+                        logo that was created by the founders of the community
+                        remains unchanged since the 19th century and carries
+                        confidence and reliability.
+                      </p>
+                      <p>
+                        Today, tens of thousands of investors around the world
+                        are multiplying their finances due to competent work and
+                        investments in the Veqber Guild.
+                      </p>
+                      <p>
+                        The established order of the company gives you the
+                        opportunity to be a leader in the market, and to be your
+                        best choice today.
+                      </p>
+                      <a
+                        routerlink="/auth/signup"
+                        class="m-btn white"
+                        href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                        >Open account</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <facade-timelapse
+                  ><div class="header-switch">
+                    <h3>Timelapse</h3>
+                    <div class="header-switch__btn">
+                      <span>19th Century</span>
+                      <div class="header-switch__icon"></div>
+                      <span>Present day</span>
+                    </div>
+                  </div></facade-timelapse
+                >
+              </div>
+            </div>
+            <section class="sect-1">
+              <div class="container">
+                <app-clock
+                  ><div class="world-time" style="height: 18px">
+                    <img src="./assets/img/world-icon.svg" alt="" />
+                    <p>GMT+1 <span>09/15/23, 13:06:39</span></p>
+                  </div>
+                </app-clock>
+                <div class="m-mb row">
+                  <div class="col-lg-6">
+                    <div class="m-title">
+                      Boundless experience carried through the centuries
+                    </div>
+                    <div class="d-block d-lg-none">
+                      <div type="img" class="m-img">
+                        <img src="./assets/img/img-1-old.webp" alt="" />
+                      </div>
+                    </div>
+                    <div class="m-text">
+                      <p>
+                        With Veqber, you stay up to date with all the latest
+                        events in the world of finance that contribute to making
+                        informed decisions, as the Veqber Guild owns all the
+                        relevant topics, popular articles, innovative opinions
+                        and tips that will change your idea of financial
+                        well-being. Right now you can join the guild and become
+                        a contender for the status of Fame Guild XXV because you
+                        can do it here!
+                      </p>
+                    </div>
+                    <a
+                      routerlink="/auth/signup"
+                      class="m-btn"
+                      href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                      >Open account</a
+                    >
+                  </div>
+                  <div class="col-lg-6 d-none d-lg-block">
+                    <div type="img" class="m-img">
+                      <img src="./assets/img/img-1-old.webp" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row d-flex align-items-end">
+                  <div class="col-xl-6">
+                    <div id="slider-1" class="m-slider">
+                      <div
+                        class="swiper-button-prev"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Previous slide"
+                        aria-controls="swiper-wrapper-b477d2b9adb102c8b"
+                      >
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow-2"></use>
+                        </svg>
+                      </div>
+                      <div
+                        class="swiper-button-next"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Next slide"
+                        aria-controls="swiper-wrapper-b477d2b9adb102c8b"
+                      >
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow-2"></use>
+                        </svg>
+                      </div>
+                      <div class="m-slider__wrap">
+                        <div class="m-slider__logo">
+                          <img src="./assets/img/logo-2.svg" alt="" />
+                        </div>
+                        <div
+                          class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+                        >
+                          <div
+                            class="swiper-wrapper"
+                            id="swiper-wrapper-b477d2b9adb102c8b"
+                            aria-live="off"
+                            style="transition-duration: 0ms"
+                          >
+                            <div
+                              class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                              data-swiper-slide-index="2"
+                              style="
+                                width: 380px;
+                                transition-duration: 0ms;
+                                opacity: 0;
+                                transform: translate3d(0px, 0px, 0px);
+                              "
+                              role="group"
+                              aria-label="3 / 3"
+                            >
+                              <div class="m-slider__item">
+                                <img
+                                  src="./assets/img/m-slider-icon-1.svg"
+                                  alt=""
+                                />
+                                <h3>Veqber</h3>
+                                <p>
+                                  This is a collection of stories of all people.
+                                  This is a story of commitment, innovation and
+                                  prosperity — a thriving guild that rewards
+                                  those who dare to imagine an alternative
+                                  future in which your personal story will be
+                                  created in which you will be able to
+                                  revolutionize decentralized finance
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              class="swiper-slide swiper-slide-duplicate-next"
+                              data-swiper-slide-index="0"
+                              style="
+                                width: 380px;
+                                transition-duration: 0ms;
+                                opacity: 0;
+                                transform: translate3d(-380px, 0px, 0px);
+                              "
+                              role="group"
+                              aria-label="1 / 3"
+                            >
+                              <div class="m-slider__item">
+                                <img
+                                  src="./assets/img/m-slider-icon-1.svg"
+                                  alt=""
+                                />
+                                <h3>Veqber</h3>
+                                <p>
+                                  At Veqber, we protect the creative aspects of
+                                  innovation. We strive to develop innovations
+                                  that are on the verge of the unthinkable and
+                                  constantly go beyond traditional products
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              class="swiper-slide swiper-slide-prev"
+                              data-swiper-slide-index="1"
+                              style="
+                                width: 380px;
+                                transition-duration: 0ms;
+                                opacity: 0;
+                                transform: translate3d(-760px, 0px, 0px);
+                              "
+                              role="group"
+                              aria-label="2 / 3"
+                            >
+                              <div class="m-slider__item">
+                                <img
+                                  src="./assets/img/m-slider-icon-1.svg"
+                                  alt=""
+                                />
+                                <h3>Veqber</h3>
+                                <p>
+                                  Veqber is not only a crypto investment
+                                  company, it is a Brand.
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              class="swiper-slide swiper-slide-visible swiper-slide-active"
+                              data-swiper-slide-index="2"
+                              style="
+                                width: 380px;
+                                transition-duration: 0ms;
+                                opacity: 1;
+                                transform: translate3d(-1140px, 0px, 0px);
+                              "
+                              role="group"
+                              aria-label="3 / 3"
+                            >
+                              <div class="m-slider__item">
+                                <img
+                                  src="./assets/img/m-slider-icon-1.svg"
+                                  alt=""
+                                />
+                                <h3>Veqber</h3>
+                                <p>
+                                  This is a collection of stories of all people.
+                                  This is a story of commitment, innovation and
+                                  prosperity — a thriving guild that rewards
+                                  those who dare to imagine an alternative
+                                  future in which your personal story will be
+                                  created in which you will be able to
+                                  revolutionize decentralized finance
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              class="swiper-slide swiper-slide-duplicate swiper-slide-next"
+                              data-swiper-slide-index="0"
+                              style="
+                                width: 380px;
+                                transition-duration: 0ms;
+                                opacity: 0;
+                                transform: translate3d(-1520px, 0px, 0px);
+                              "
+                              role="group"
+                              aria-label="1 / 3"
+                            >
+                              <div class="m-slider__item">
+                                <img
+                                  src="./assets/img/m-slider-icon-1.svg"
+                                  alt=""
+                                />
+                                <h3>Veqber</h3>
+                                <p>
+                                  At Veqber, we protect the creative aspects of
+                                  innovation. We strive to develop innovations
+                                  that are on the verge of the unthinkable and
+                                  constantly go beyond traditional products
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <span
+                            class="swiper-notification"
+                            aria-live="assertive"
+                            aria-atomic="true"
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="m-title">Why Veqber?<br />Company benefits</div>
+                    <div class="m-text">
+                      <p>
+                        Veqber is the world's oldest financial guild, providing
+                        up-to-date information on finance to make informed
+                        decisions. Our investment approach is long-term and
+                        sustainable.
+                      </p>
+                      <p>
+                        Zero commission is charged for deposits and withdrawals,
+                        making it easy to start earning money with
+                        cryptocurrencies. Our guild manages the investments and
+                        takes a maximum of 13-17% of profits for 24/7 monitoring
+                        and management.
+                      </p>
+                      <p>
+                        As an independent provider, we offer unbiased support to
+                        help you achieve your goals. We play a leading role in
+                        promoting fair practices and transparency in finance.
+                        Our meetings with investors and partners form the
+                        foundation of Veqber.
+                      </p>
+                      <p>
+                        Trust is built through transparency, criticism, and
+                        accountability. We listen and take action when the
+                        community has problems and believe trust is forged from
+                        the bottom up.
+                      </p>
+                    </div>
+                    <a
+                      class="m-btn"
+                      href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                      >Read more about us</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="sect-2">
+              <div class="container">
+                <div class="m-title">Veqber Guild updated information</div>
+                <div class="m-video">
+                  <div class="m-video__left">
+                    <img src="./assets/img/logo-2.svg" alt="" />
+                    <div class="d-none d-lg-block">
+                      <a
+                        routerlink="/auth/signup"
+                        class="m-btn"
+                        href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                        >Open account</a
+                      >
+                    </div>
+                  </div>
+                  <a
+                    target="_blank"
+                    type="img"
+                    aria-label="Video"
+                    class="m-video__right"
+                    href="https://www.youtube.com/watch?v=tCqaWGgcI6A"
+                    ><img src="./assets/img/m-video3-old.webp" alt=""
+                  /></a>
+                  <div class="d-block d-lg-none">
+                    <a
+                      routerlink="/auth/signup"
+                      class="m-btn"
+                      href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                      >Open account</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="sect-3">
+              <div class="container">
+                <div class="row d-flex align-items-end sect-3-row">
+                  <div class="col-xl-6">
+                    <div class="m-title">Veqber CEO<br />Mr. Dash Bereford</div>
+                    <div class="d-block d-xl-none">
+                      <div class="m-photo">
+                        <div class="m-photo__logo">
+                          <img src="./assets/img/logo-2.svg" alt="" />
+                        </div>
+                        <div type="img" class="m-photo__img change-img">
+                          <img src="./assets/img/m-img-3-old.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="m-text">
+                      <p>
+                        Dash Bereford has had a 19-year career in asset and
+                        wealth management. He has held the last senior positions
+                        since 2006 and as an executive director, where he was
+                        responsible for a group of global clients.
+                      </p>
+                      <p>
+                        Dash brought investment knowledge and experience in the
+                        field of cryptocurrency investments and financial
+                        transactions to the Board. He also has leadership skills
+                        acquired as a managing director.
+                      </p>
+                      <p>
+                        Dash Bereford prefers companies with strong cash flows
+                        and good fundamentals.
+                      </p>
+                    </div>
+                    <a
+                      routerlink="/auth/signup"
+                      class="m-btn"
+                      href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                      >Open account</a
+                    >
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="d-none d-xl-block">
+                      <div class="m-photo">
+                        <div class="m-photo__logo">
+                          <img src="./assets/img/logo-2.svg" alt="" />
+                        </div>
+                        <div type="img" class="m-photo__img change-img">
+                          <img src="./assets/img/m-img-3-old.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row d-flex align-items-end sect-3-row">
+                  <div class="col-xl-6">
+                    <div class="d-none d-xl-block">
+                      <div class="m-photo m-photo_reverse">
+                        <div class="m-photo__logo">
+                          <img src="./assets/img/logo-2.svg" alt="" />
+                        </div>
+                        <div type="img" class="m-photo__img change-img">
+                          <img src="./assets/img/m-img-2-old.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="m-title">
+                      Veqber CEO<br />Mr. Cristopher Marveq
+                    </div>
+                    <div class="d-block d-xl-none">
+                      <div class="m-photo">
+                        <div class="m-photo__logo">
+                          <img src="./assets/img/logo-2.svg" alt="" />
+                        </div>
+                        <div type="img" class="m-photo__img change-img">
+                          <img src="./assets/img/m-img-2-old.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="m-text">
+                      <p>
+                        Christopher Marveq is a leading specialist in the field
+                        of financial management, professionalism and dedication
+                        are the main qualities that characterize him.
+                      </p>
+                      <p>
+                        Maintains communication with the public at the highest
+                        level, always helps and brings the matter to an end.
+                      </p>
+                      <p>
+                        Globally develops the company in large formats, always
+                        sees a perspective in everything. He introduced new
+                        methods and approaches to work to the Veqber Guild,
+                        which made it possible to improve the company's
+                        activities and gain a foothold in leading positions.
+                      </p>
+                      <div class="quote-wrap">
+                        <p>
+                          <i
+                            >Dreams come true when a strong desire turns them
+                            into concrete actions. Make your dreams come true
+                            with the Veqber Guild.</i
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <a
+                      routerlink="/auth/signup"
+                      class="m-btn"
+                      href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                      >Open account</a
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="d-block d-lg-none">
+                      <div class="m-title">Latest news</div>
+                    </div>
+                    <div id="slider-2" class="m-slider-img">
+                      <div class="m-slider-img__logo">
+                        <img src="./assets/img/logo-2.svg" alt="" />
+                      </div>
+                      <div
+                        class="swiper-button-prev"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Previous slide"
+                        aria-controls="swiper-wrapper-75f3413443b91595"
+                      >
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow-2"></use>
+                        </svg>
+                      </div>
+                      <div
+                        class="swiper-button-next"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Next slide"
+                        aria-controls="swiper-wrapper-75f3413443b91595"
+                      >
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#arrow-2"></use>
+                        </svg>
+                      </div>
+                      <div
+                        class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+                      >
+                        <div
+                          class="swiper-wrapper"
+                          id="swiper-wrapper-75f3413443b91595"
+                          aria-live="off"
+                          style="transition-duration: 0ms"
+                        >
+                          <div
+                            class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
+                            data-swiper-slide-index="4"
+                            style="
+                              width: 552px;
+                              transition-duration: 0ms;
+                              opacity: 0;
+                              transform: translate3d(0px, 0px, 0px);
+                            "
+                            role="group"
+                            aria-label="5 / 5"
+                          >
+                            <div class="m-slider-img__item">
+                              <a
+                                aria-label="India proposes AI-powered conversational payments system — RBI"
+                                href="/media/140"
+                                ><img
+                                  alt=""
+                                  src="https://ik.imagekit.io/veqber/news/64db5ad7609ed.jpg"
+                              /></a>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide swiper-slide-duplicate-active"
+                            data-swiper-slide-index="0"
+                            style="
+                              width: 552px;
+                              transition-duration: 0ms;
+                              opacity: 0;
+                              transform: translate3d(-552px, 0px, 0px);
+                            "
+                            role="group"
+                            aria-label="1 / 5"
+                          >
+                            <div class="m-slider-img__item">
+                              <a
+                                aria-label="Bitcoin Ordinals NFT trading volume tanks 98% since May — DappRadar"
+                                href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                                ><img
+                                  alt=""
+                                  src="https://ik.imagekit.io/veqber/news/64f5d8e409717.jpg"
+                              /></a>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide"
+                            data-swiper-slide-index="1"
+                            style="
+                              width: 552px;
+                              transition-duration: 0ms;
+                              opacity: 0;
+                              transform: translate3d(-1104px, 0px, 0px);
+                            "
+                            role="group"
+                            aria-label="2 / 5"
+                          >
+                            <div class="m-slider-img__item">
+                              <a aria-label="Binance BUSD" href="/media/143"
+                                ><img
+                                  alt=""
+                                  src="https://ik.imagekit.io/veqber/news/64f060450c424.jpg"
+                              /></a>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide"
+                            data-swiper-slide-index="2"
+                            style="
+                              width: 552px;
+                              transition-duration: 0ms;
+                              opacity: 0;
+                              transform: translate3d(-1656px, 0px, 0px);
+                            "
+                            role="group"
+                            aria-label="3 / 5"
+                          >
+                            <div class="m-slider-img__item">
+                              <a
+                                aria-label="UK to spend $130M on AI chips amid scramble to buy up computing power"
+                                href="/media/142"
+                                ><img
+                                  alt=""
+                                  src="https://ik.imagekit.io/veqber/news/64ee0cb8e856c.jpg"
+                              /></a>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide"
+                            data-swiper-slide-index="3"
+                            style="
+                              width: 552px;
+                              transition-duration: 0ms;
+                              opacity: 0;
+                              transform: translate3d(-2208px, 0px, 0px);
+                            "
+                            role="group"
+                            aria-label="4 / 5"
+                          >
+                            <div class="m-slider-img__item">
+                              <a
+                                aria-label="Satoshi-era Bitcoin awakens: 1,005 BTC mined in 2010 on the move"
+                                href="/media/141"
+                                ><img
+                                  alt=""
+                                  src="https://ik.imagekit.io/veqber/news/64df593c04d6c.jpg"
+                              /></a>
+                            </div>
+                          </div>
+                          <div
+                            class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
+                            data-swiper-slide-index="4"
+                            style="
+                              width: 552px;
+                              transition-duration: 0ms;
+                              opacity: 0;
+                              transform: translate3d(-2760px, 0px, 0px);
+                            "
+                            role="group"
+                            aria-label="5 / 5"
+                          >
+                            <div class="m-slider-img__item">
+                              <a
+                                aria-label="India proposes AI-powered conversational payments system — RBI"
+                                href="/media/140"
+                                ><img
+                                  alt=""
+                                  src="https://ik.imagekit.io/veqber/news/64db5ad7609ed.jpg"
+                              /></a>
+                            </div>
+                          </div>
+
+                          <div
+                            class="swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active"
+                            data-swiper-slide-index="0"
+                            style="
+                              width: 552px;
+                              transition-duration: 0ms;
+                              opacity: 1;
+                              transform: translate3d(-3312px, 0px, 0px);
+                            "
+                            role="group"
+                            aria-label="1 / 5"
+                          >
+                            <div class="m-slider-img__item">
+                              <a
+                                aria-label="Bitcoin Ordinals NFT trading volume tanks 98% since May — DappRadar"
+                                href="/media/144"
+                                ><img
+                                  alt=""
+                                  src="https://ik.imagekit.io/veqber/news/64f5d8e409717.jpg"
+                              /></a>
+                            </div>
+                          </div>
+                        </div>
+                        <span
+                          class="swiper-notification"
+                          aria-live="assertive"
+                          aria-atomic="true"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-none d-lg-block">
+                      <div class="m-title">Latest news</div>
+                    </div>
+                    <div
+                      class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+                    >
+                      <div
+                        class="swiper-wrapper"
+                        id="swiper-wrapper-0c797789bb68be07"
+                        aria-live="polite"
+                        style="transition-duration: 0ms"
+                      >
+                        <div
+                          class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                          data-swiper-slide-index="4"
+                          style="
+                            width: 584px;
+                            transition-duration: 0ms;
+                            opacity: 0;
+                            transform: translate3d(0px, 0px, 0px);
+                          "
+                          role="group"
+                          aria-label="5 / 5"
+                        >
+                          <div class="m-text">
+                            <h3>
+                              <a
+                                aria-label="India proposes AI-powered conversational payments system — RBI"
+                                href="/media/140"
+                                >India proposes AI-powered conversational
+                                payments system — RBI</a
+                              >
+                            </h3>
+                            <p>
+                              — India’s central bank said that there’s a
+                              potential for an AI system that would initiate
+                              transactions through a conversation.The Reserve
+                              Bank of India (RBI), the country’s central bank,
+                              has published a press release that floated the
+                              idea of using artificial intelligence (AI) on
+                              conversational payments in the unified payments
+                              interface (UPI), which is an instant payment
+                              system developed in India.On Aug. 10, the RBI
+                              recognized that UPI has transformed digital
+                              payments in India, citing its ease of usage,
+                              safety and security. The central bank also noted
+                              that adding new features allowed the platform to
+                              cater to the diverse needs of...
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-visible swiper-slide-active"
+                          data-swiper-slide-index="0"
+                          style="
+                            width: 584px;
+                            transition-duration: 0ms;
+                            opacity: 1;
+                            transform: translate3d(-584px, 0px, 0px);
+                          "
+                          role="group"
+                          aria-label="1 / 5"
+                        >
+                          <div class="m-text">
+                            <h3>
+                              <a
+                                aria-label="Bitcoin Ordinals NFT trading volume tanks 98% since May — DappRadar"
+                                href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                                >Bitcoin Ordinals NFT trading volume tanks 98%
+                                since May — DappRadar</a
+                              >
+                            </h3>
+                            <p>
+                              — Alongside the declining trading volumes, the
+                              number of Bitcoin Ordinals transactions dropped by
+                              97% to just 20,571 in mid-August.DappRadar has
+                              pointed to an «alarming plunge» in Bitcoin
+                              Ordinals nonfungible token (NFT) user activity,
+                              with trading volumes tanking around a whopping 98%
+                              since May.In an Aug. 17 report, DappRadar
+                              highlighted its data showing that the total
+                              Bitcoin Ordinals sales volume had decreased from
+                              peak levels of $452 million in May to roughly $3
+                              million as of Aug. 14.In line with that drop, the
+                              number of transactions also declined by around 97%
+                              to 20,571 within that same period.DappRadar
+                              described it as a g...
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-next"
+                          data-swiper-slide-index="1"
+                          style="
+                            width: 584px;
+                            transition-duration: 0ms;
+                            opacity: 0;
+                            transform: translate3d(-1168px, 0px, 0px);
+                          "
+                          role="group"
+                          aria-label="2 / 5"
+                        >
+                          <div class="m-text">
+                            <h3>
+                              <a aria-label="Binance BUSD" href="/media/143"
+                                >Binance BUSD</a
+                              >
+                            </h3>
+                            <p>
+                              Dear Veqber Guild members Due to the fact that
+                              Binance Exchange recommends users to convert BUSD
+                              to other stablecoins until February 2024.
+                              https://www.binance.com/en/support/announcement/binance-encourages-users-to-convert-busd-to-other-stablecoins-prior-to-february-2024-d392843e81fd4bc3a5f7e219aa01f34d
+                              And the possibility to withdraw BUSD via BNB
+                              Chain, Avalanche, Polygon and Tron networks will
+                              be closed already on September 7 on Binance,
+                              Veqber GCG company will shut down the system of
+                              deposit and withdrawal via BUSD from the
+                              07.09.2023 10.00 a.m. London time. From 07.09.2023
+                              you can use other systems for deposit and
+                              withdrawa...
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide"
+                          data-swiper-slide-index="2"
+                          style="
+                            width: 584px;
+                            transition-duration: 0ms;
+                            opacity: 0;
+                            transform: translate3d(-1752px, 0px, 0px);
+                          "
+                          role="group"
+                          aria-label="3 / 5"
+                        >
+                          <div class="m-text">
+                            <h3>
+                              <a
+                                aria-label="UK to spend $130M on AI chips amid scramble to buy up computing power"
+                                href="/media/142"
+                                >UK to spend $130M on AI chips amid scramble to
+                                buy up computing power</a
+                              >
+                            </h3>
+                            <p>
+                              — The chips will be used to set up an AI resource
+                              as a recent report said 20% of firms can’t get
+                              enough computing power for AI.British Prime
+                              Minister Rishi Sunak is set to spend 100 million
+                              pounds ($130 million) to buy thousands of computer
+                              chips to power artificial intelligence amid a
+                              global shortage and race for computing power.The
+                              Telegraph reported on Aug. 20 that the United
+                              Kingdom aims to build an «AI Research Resource» by
+                              mid-2024 as part of Sunak’s plan to make the
+                              country an AI tech hub.The government is
+                              reportedly sourcing chips from makers NVIDIA,
+                              Intel and AMD, and it is understood that the
+                              science funding body UK R...
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide"
+                          data-swiper-slide-index="3"
+                          style="
+                            width: 584px;
+                            transition-duration: 0ms;
+                            opacity: 0;
+                            transform: translate3d(-2336px, 0px, 0px);
+                          "
+                          role="group"
+                          aria-label="4 / 5"
+                        >
+                          <div class="m-text">
+                            <h3>
+                              <a
+                                aria-label="Satoshi-era Bitcoin awakens: 1,005 BTC mined in 2010 on the move"
+                                href="/media/141"
+                                >Satoshi-era Bitcoin awakens: 1,005 BTC mined in
+                                2010 on the move</a
+                              >
+                            </h3>
+                            <p>
+                              — 1,005 BTC, valued at $29 million, has been moved
+                              from an old Bitcoin wallet after 13 years, drawing
+                              parallels to recent dormant BTC movements. A
+                              Bitcoin wallet containing 1,005 BTC mined in 2010
+                              has reawakened, with an anonymous user moving the
+                              long dormant coins to new addresses in a number of
+                              different transactions. Speaking exclusively to
+                              Cointelegraph, Kirill Kretov — a blockchain
+                              researcher, developer and cryptocurrency trader —
+                              weighed in on the event after initially flagging
+                              the movement of the BTC, which was mined just a
+                              year after Bitcoin’s inception. Cointelegraph
+                              independently verified the details of the wallet
+                              usi...
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide swiper-slide-duplicate-prev"
+                          data-swiper-slide-index="4"
+                          style="
+                            width: 584px;
+                            transition-duration: 0ms;
+                            opacity: 0;
+                            transform: translate3d(-2920px, 0px, 0px);
+                          "
+                          role="group"
+                          aria-label="5 / 5"
+                        >
+                          <div class="m-text">
+                            <h3>
+                              <a
+                                aria-label="India proposes AI-powered conversational payments system — RBI"
+                                href="/media/140"
+                                >India proposes AI-powered conversational
+                                payments system — RBI</a
+                              >
+                            </h3>
+                            <p>
+                              — India’s central bank said that there’s a
+                              potential for an AI system that would initiate
+                              transactions through a conversation.The Reserve
+                              Bank of India (RBI), the country’s central bank,
+                              has published a press release that floated the
+                              idea of using artificial intelligence (AI) on
+                              conversational payments in the unified payments
+                              interface (UPI), which is an instant payment
+                              system developed in India.On Aug. 10, the RBI
+                              recognized that UPI has transformed digital
+                              payments in India, citing its ease of usage,
+                              safety and security. The central bank also noted
+                              that adding new features allowed the platform to
+                              cater to the diverse needs of...
+                            </p>
+                          </div>
+                        </div>
+
+                        <div
+                          class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                          data-swiper-slide-index="0"
+                          style="
+                            width: 584px;
+                            transition-duration: 0ms;
+                            opacity: 0;
+                            transform: translate3d(-3504px, 0px, 0px);
+                          "
+                          role="group"
+                          aria-label="1 / 5"
+                        >
+                          <div class="m-text">
+                            <h3>
+                              <a
+                                aria-label="Bitcoin Ordinals NFT trading volume tanks 98% since May — DappRadar"
+                                href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                                >Bitcoin Ordinals NFT trading volume tanks 98%
+                                since May — DappRadar</a
+                              >
+                            </h3>
+                            <p>
+                              — Alongside the declining trading volumes, the
+                              number of Bitcoin Ordinals transactions dropped by
+                              97% to just 20,571 in mid-August.DappRadar has
+                              pointed to an «alarming plunge» in Bitcoin
+                              Ordinals nonfungible token (NFT) user activity,
+                              with trading volumes tanking around a whopping 98%
+                              since May.In an Aug. 17 report, DappRadar
+                              highlighted its data showing that the total
+                              Bitcoin Ordinals sales volume had decreased from
+                              peak levels of $452 million in May to roughly $3
+                              million as of Aug. 14.In line with that drop, the
+                              number of transactions also declined by around 97%
+                              to 20,571 within that same period.DappRadar
+                              described it as a g...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <span
+                        class="swiper-notification"
+                        aria-live="assertive"
+                        aria-atomic="true"
+                      ></span>
+                    </div>
+                    <a
+                      aria-label="Read all"
+                      class="m-btn"
+                      href="https://veqber.com/auth/signup/?upline=920705551199&lang=en"
+                      >Read all</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </section>
+          </ng-component>
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-6 d-flex align-items-center">
+                  <a
+                    routerlink="/"
+                    aria-label="Veqber"
+                    class="footer-logo"
+                    href="/"
+                    ><img src="./assets/img/logo-2.svg" alt=""
+                  /></a>
+                  <div class="d-none d-lg-block">
+                    <div class="footer-cont">
+                      <app-company-data
+                        ><p>Veqber, NMLS ID# 14728590</p>
+                        <p>
+                          <a
+                            target="_blank"
+                            class="company_map"
+                            title="Show on map"
+                            href="https://goo.gl/maps/RZtMrkRkfw8SqNYL9"
+                            >Exchequer Court, 30 St. Mary Axe, London, England,
+                            EC3A 8EP</a
+                          >
+                        </p>
+                      </app-company-data>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-4 col-6 d-flex justify-content-end align-items-center"
+                >
+                  <app-language
+                    ><div class="header-lang">
+                      <div class="header-lang__icon">
+                        <svg>
+                          <use xlink:href="assets/img/flags.svg#en"></use>
+                        </svg>
+                      </div>
+                      <span>English</span
+                      ><svg>
+                        <use xlink:href="assets/img/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </app-language>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="d-block d-lg-none">
+                    <div class="footer-cont">
+                      <app-company-data
+                        ><p>Veqber, NMLS ID# 14728590</p>
+                        <p>
+                          <a
+                            target="_blank"
+                            class="company_map"
+                            title="Show on map"
+                            href="https://goo.gl/maps/RZtMrkRkfw8SqNYL9"
+                            >Exchequer Court, 30 St. Mary Axe, London, England,
+                            EC3A 8EP</a
+                          >
+                        </p>
+                      </app-company-data>
+                    </div>
+                  </div>
+                  <div type="img" class="footer-map change-img">
+                    <img src="./assets/img/footer-map-old.webp" alt="" /><a
+                      target="_blank"
+                      class="m-btn"
+                      href="https://goo.gl/maps/RZtMrkRkfw8SqNYL9"
+                      >Open map</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-md-4 col-6">
+                      <div class="footer-menu">
+                        <a
+                          routerlink="/"
+                          routerlinkactive="active"
+                          href="/"
+                          class="active"
+                          >Home</a
+                        ><a
+                          routerlink="/about"
+                          routerlinkactive="active"
+                          href="/"
+                          >About QB Guild</a
+                        ><a
+                          routerlink="/offer"
+                          routerlinkactive="active"
+                          href="/"
+                          >QBfied Plans</a
+                        ><a
+                          routerlink="/affiliate_program"
+                          routerlinkactive="active"
+                          href="/"
+                          >QB Perfection program</a
+                        >
+                      </div>
+                    </div>
+                    <div class="col-md-8 col-6">
+                      <div class="footer-menu">
+                        <a routerlinkactive="active" href="/">Media</a
+                        ><a routerlinkactive="active" href="/">FAQ</a
+                        ><a routerlinkactive="active" href="/">Contacts</a
+                        ><a routerlinkactive="active" href="/"
+                          >Terms of services</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer-text">
+                    Veqber Guild is a dynamically developing crypto investment
+                    Guild. Your desire grows into our work. The ability to
+                    perform millions of tasks at lightning speed and show the
+                    best result in the crypto market is the main task of Veqber.
+                    Quality, stability and confidence are why we are number 1.
+                  </div>
+                </div>
+              </div>
+              <app-footer-socials
+                ><div class="footer-soc">
+                  <a
+                    target="_blank"
+                    type="telegram"
+                    href="https://t.me/QBExpert"
+                    ><svg>
+                      <use xlink:href="assets/img/sprite.svg#tg"></use>
+                    </svg>
+                    QBExpert </a
+                  ><a target="_blank" type="telegram" href="https://t.me/veqber"
+                    ><svg>
+                      <use xlink:href="assets/img/sprite.svg#tg"></use>
+                    </svg>
+                    @veqber </a
+                  ><a
+                    target="_blank"
+                    href="https://www.instagram.com/veqberguild/"
+                    aria-label="instagram"
+                    ><svg>
+                      <use xlink:href="assets/img/sprite.svg#inst"></use>
+                    </svg>
+                    Instagram </a
+                  ><a
+                    target="_blank"
+                    href="https://wa.me/qr/3KWKLFLQ4QPXM1"
+                    aria-label="whatsapp"
+                    ><svg>
+                      <use xlink:href="assets/img/sprite.svg#wapp"></use>
+                    </svg>
+                    WhatsApp </a
+                  ><a
+                    target="_blank"
+                    href="https://tinyurl.com/2vf4vanj"
+                    aria-label="viber"
+                    ><svg>
+                      <use xlink:href="assets/img/sprite.svg#viber"></use>
+                    </svg>
+                    Viber
+                  </a>
+                </div></app-footer-socials
+              >
+              <div class="footer-copy">
+                Copyright © 2023 Veqber. All rights reserved.
+              </div>
+            </div>
+          </footer>
+        </div>
+      </ng-component>
+      <ng-component id="login-modal" style="display: none">
+        <div
+          class="modal active animate__animated animate__faster animate__fadeIn"
+        >
+          <div class="modal-wrap">
+            <div class="modal-box">
+              <form
+                novalidate="true"
+                class="modal-form ng-dirty ng-touched ng-valid"
+                autocomplete="off"
+              >
+                <fieldset>
+                  <div class="cont-title">Sign in</div>
+                  <div class="cont-input__title">Username</div>
+                  <label class="cont-input"
+                    ><input
+                      id="coinmarketcap-username"
+                      type="text"
+                      formcontrolname="login"
+                      maxlength="64"
+                      inputvalidation=""
+                      placeholder="Enter username or e-mail"
+                      class="ng-dirty ng-valid ng-touched"
+                  /></label>
+                  <div class="cont-input__title">
+                    Password <a href="javascript:void(0)">Forgot password?</a>
+                  </div>
+                  <label class="cont-input"
+                    ><input
+                      id="coinmarketcap-password"
+                      type="password"
+                      formcontrolname="password"
+                      maxlength="32"
+                      inputvalidation=""
+                      placeholder="Enter your password"
+                      class="ng-dirty ng-valid ng-touched" /></label
+                  ><button type="submit" class="m-btn" id="coinmarketcap-login">
+                    Sign in
+                  </button>
+                  <div class="mt-5">
+                    <re-captcha
+                      formcontrolname="captcha"
+                      badge="inline"
+                      theme="dark"
+                      id="ngrecaptcha-7"
+                      class="ng-untouched ng-pristine ng-valid"
+                      ><div
+                        class="grecaptcha-badge"
+                        data-style="inline"
+                        style="
+                          width: 256px;
+                          height: 60px;
+                          box-shadow: gray 0px 0px 5px;
+                        "
+                      >
+                        <div class="grecaptcha-logo">
+                          <iframe
+                            title="reCAPTCHA"
+                            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lcu60IkAAAAAMiJEBV5MzuY4so2o501-YnuGEaz&amp;co=aHR0cHM6Ly92ZXFiZXIuY29tOjQ0Mw..&amp;hl=en&amp;v=uEf7E1417z6GNSkRx7AyL8K8&amp;theme=dark&amp;size=invisible&amp;badge=inline&amp;cb=v7r9qopgfkk7"
+                            width="256"
+                            height="60"
+                            role="presentation"
+                            name="a-7jwfo11didr7"
+                            frameborder="0"
+                            scrolling="no"
+                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                          ></iframe>
+                        </div>
+                        <div class="grecaptcha-error"></div>
+                        <textarea
+                          id="g-recaptcha-response-7"
+                          name="g-recaptcha-response"
+                          class="g-recaptcha-response"
+                          style="
+                            width: 250px;
+                            height: 40px;
+                            border: 1px solid rgb(193, 193, 193);
+                            margin: 10px 25px;
+                            padding: 0px;
+                            resize: none;
+                            display: none;
+                          "
+                        ></textarea>
+                      </div>
+                      <iframe style="display: none"></iframe
+                    ></re-captcha>
+                  </div>
+                </fieldset>
+              </form>
+              <div class="modal-img">
+                <div class="modal-close">
+                  <svg>
+                    <use xlink:href="./assets/img/sprite.svg#close"></use>
+                  </svg>
+                </div>
+                <div class="m-logo">
+                  <img src="./assets/img/logo-2.svg" alt="" />
+                </div>
+                <div class="modal-img__wrap">
+                  <img src="./assets/img/sign-bg.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div></div
+      ></ng-component>
+    </app-root>
+    <script>
+      function handleLogin() {
+        const loginModalElement = document.getElementById('login-modal');
+        loginModalElement.style.display = 'block';
+      }
+    </script>
+    <script src="client.js"></script>
+  </body>
+</html>
