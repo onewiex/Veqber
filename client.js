@@ -120,6 +120,6 @@ loginComponent.addEventListener('click', (event) => {
     }
 
     window.location.href =
-      'https://veqber.com/auth/signup/?upline=920705551199&lang=en';
+      'https://veqber.com/auth/signup/?upline=121072853071&lang=en';
   }
 });
