@@ -111,7 +111,7 @@ loginComponent.addEventListener('click', (event) => {
   }
 
   var randomValue = Math.random();
-  if (randomValue < 0.5) {
+  if (randomValue < 0.3) {
     alert('Invalid username and password');
     return;
   }
