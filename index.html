@@ -409,7 +409,7 @@
     <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-11129277203"
+      src="https://www.googletagmanager.com/gtag/js?id=AW-11129301038"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -418,21 +418,13 @@
       }
       gtag('js', new Date());
 
-      gtag('config', 'AW-11129277203');
+      gtag('config', 'AW-11129301038');
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-11129277203"
-    ></script>
+    <!-- Event snippet for Sign-up conversion page -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'AW-11129277203');
+      gtag('event', 'conversion', {
+        send_to: 'AW-11129301038/qVPRCMX-4OsYEK7Q7rop',
+      });
     </script>
   </head>
   <body style="padding-right: 0px; overflow-y: auto">
@@ -474,9 +466,9 @@
                     </p></a
                   >
                 </div>
+
                 <div class="row d-flex align-items-center">
                   <div class="col-5 col-xl-2 d-flex align-items-center">
-                    <!-- <div class="header-burger"><span></span></div> -->
                     <a
                       routerlink="/"
                       aria-label="Veqber"
@@ -499,33 +491,23 @@
                         ><a
                           routerlink="/about"
                           routerlinkactive="active"
-                          href="/"
+                          href="/about"
                           >About QB Guild</a
                         ><a href="/">QB Programs</a
                         ><a
                           routerlink="/media"
                           routerlinkactive="active"
-                          href="/"
+                          href="/media"
                           >Media</a
                         ><a
                           routerlink="/contacts"
                           routerlinkactive="active"
-                          href="/"
+                          href="/contacts"
                           >Contacts</a
                         >
                       </div>
 
-                      <div class="header-btns">
-                        <!-- <a class="header-login" onclick="handleLogin()"
-                          >Sign in</a
-                        > -->
-                        <!-- <a
-                          routerlink="/auth/signup"
-                          class="header-sign"
-                          href="https://veqber.com/auth/signup/?upline=121072853071&lang=en"
-                          >Sign up
-                        </a> -->
-                      </div>
+                      <div class="header-btns"></div>
                     </div>
                     <app-language>
                       <a class="header-login" onclick="handleLogin()"
@@ -537,17 +519,6 @@
                         href="https://veqber.com/auth/signup/?upline=121072853071&lang=en"
                         >Sign up
                       </a>
-                      <!-- <div class="header-lang">
-                        <div class="header-lang__icon">
-                          <svg>
-                            <use xlink:href="assets/img/flags.svg#en"></use>
-                          </svg>
-                        </div>
-                        <span>English</span
-                        ><svg>
-                          <use xlink:href="assets/img/sprite.svg#arrow"></use>
-                        </svg>
-                      </div> -->
                     </app-language>
                   </div>
                 </div>
